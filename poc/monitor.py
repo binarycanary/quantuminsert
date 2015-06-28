@@ -2,6 +2,7 @@
 #
 # file:     monitor.py
 # author:   Fox-IT Security Research Team <srt@fox-it.com>
+# modified by: binarycanary@github - added scapy parsing
 #
 # monitor.py, used to leak TCP sequence + ack numbers to the shooter
 #
