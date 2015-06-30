@@ -21,6 +21,11 @@ import socket
 import argparse
 import collections
 
+# Scapy imports
+import logging
+logging.getLogger("scapy.runtime").setLevel(logging.ERROR)
+from scapy.all import IP, TCP, confc
+
 # Shared data
 QuantumTip = collections.namedtuple("QuantumTip", "src dst sport dport seq ack")
 TIP_STRUCT = "IIHHII"
